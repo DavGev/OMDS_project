@@ -24,10 +24,10 @@ The activation function $g(t, σ) := tanh(σt)$ is the hyperbolic tangent, with 
 - **Question 1. (grade up to 20)** Use an optimization algorithm from `scipy.optimize` that uses the gradient to determine the parameters $v_j ,w_{ji}, b_j$ which minimize the error.
 - **Question 2. (grade up to 10)** Develop an RBF neural network trained by implementing the decomposition method studied in class.
 
-| Ex | H | N | $σ$ | $ρ$ | Optimization | Message | Init train error | Final train error | Final  test error | f\grad evaluations | Time |
-| -|-|-|-|-|-|-|-|-|-|-|-|
-| Q1 Full MLP |
-| Q2 RBF |
+| Ex          | H | N | $σ$ | $ρ$   | Optimization | Message | Init train error | Final train error | Final  test error | f\grad evaluations | Time |
+| -           | - | - | -   | -     | -            | -       | -                | -                 | -                 | -                  | -    |
+| Q1 Full MLP | 2 | 8 | 1   | 0.001 | trust-constr |
+| Q2 RBF      |
 
 
 \* optimization: with parameters (optimality accuracy, max number of iterations etc)
